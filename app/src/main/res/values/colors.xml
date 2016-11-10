@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Black -->
+    <color name="black">#ff000000</color>
+
+    <!-- White -->
+    <color name="white">#ffffffff</color>
+
+    <!-- Transparent black -->
+    <color name="transparent_black">#99000000</color>
+
+    <!-- Transparent white -->
+    <color name="transparent_white">#ffcccccc</color>
+
+    <!-- Dark transparent color -->
+    <color name="list_item_background">#c1000000</color>
+
+    <!-- A darkish color used for the action bar -->
+    <color name="action_bar_color">#ff0d0d0d</color>
+
+    <color name="colorAlipe">#55F81B1B</color>
+
+    <color name="red">#f00</color>
+    <color name="blue">#00f</color>
+    <color name="orangered">#FF4500</color>
+    <color name="darkorange">#FF8C00</color>
+
+    <color name="orange">#FFA500</color>
+
+    <color name="gold">#FFD700</color>
+
+    <color name="line_green">#009944</color>
+
+    <color name="gainsboro">#E0E0E0</color>
+
+    <color name="lightgray">#D3D3D3</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="drakgray">#A9A9A9</color>
+    <color name="gray">#808080</color>
+    <color name="dimgray">#696969</color>
+    <color name="lightslategray">#778899</color>
+    <color name="slategray">#708090</color>
+    <color name="darkslategray">#2F4F4F</color>
+    <color name="logingbtn">#00a1e7</color>
+    <color name="logingfont">#666666</color>
+
+    <color name="cartbg">#fef3e0</color>
+    <color name="color_orange">#FF5609</color>
+    <color name="color_gray">#999999</color>
+    <color name="color_bg_searchbar">#E7E7E7</color>
+    <color name="color_bg_seller">#1B1627</color>
+    <color name="color_gold">#FFD700</color>
+    <color name="color_cartMerchantsMsg">#fcfcfc</color>
+
+    <color name="color_bg_collection">#E4DEDF</color>
+    <!--app背景颜色-->
+    <color name="color_main_bg">#f8f8f8</color>
+
+    <color name="text_color_black">#333333</color>
+    <color name="text_color_drakgray">#666666</color>
+
+    <color name="text_color_white">@android:color/white</color>
+    <color name="text_color_gray">@color/color_gray</color>
+    <color name="text_color_orange">@color/color_orange</color>
+
+    <color name="line_color">#cccccc</color>
+
+    <color name="main_menu_text">#666666</color>
+    <color name="main_red">#d3180e</color>
+    <color name="main_red_dark">#95110a</color>
+    <color name="color_subTitle_bg">#F0F0f0</color>
+
+    <drawable name="drawable_progress_bg">@android:color/white</drawable>
+    <drawable name="drawable_progress_glay">@color/gray</drawable>
+    <drawable name="drawable_progress_blue">@color/blue</drawable>
+
+    <!--首页bar的背景颜色-->
+    <color name="hotbar">#f5b44f</color>
+    <color name="newbar">#e566f1</color>
+    <color name="timebar">#36d495</color>
+    <color name="recommondbar">#65bbf1</color>
+    <color name="promotionbar">#f7564f</color>
+    <color name="topicbar">#87c718</color>
+    <color name="btn_blue">#00a1e7</color>
+
+
+    <color name="bg_red_shadow">#a32019</color>
+
+    <drawable name="atOnceBuy">#d3180e</drawable>
+    <drawable name="atOnceBuy_pre">#BBFF5000</drawable>
+
+    <drawable name="contactCustomer">#ffffbb33</drawable>
+    <drawable name="contactCustomer_pre">#FF9D09</drawable>
+</resources>

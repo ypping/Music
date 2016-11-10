@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyMusic</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- 登陆页面 -->
+    <string name="login_name">请输入用户名</string>
+    <string name="login_password">请输入密码</string>
+
+    <!-- 通用 -->
+    <string name="determine">确定</string>
+</resources>

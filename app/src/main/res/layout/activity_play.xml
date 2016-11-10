@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.yuan.mymusic.ui.play.PlayActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0dp"
+        android:layout_weight="4"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_0dp"
+        android:layout_weight="1.4"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0dp"
+            android:layout_weight="1"
+            android:gravity="center|clip_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_8dp">
+
+            <ImageView
+                android:id="@+id/play_left_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bt_next"
+                android:rotation="180" />
+
+            <CheckBox
+                android:id="@+id/play_check_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_40dp"
+                android:layout_marginRight="@dimen/space_40dp"
+                android:background="@drawable/selector_chack_play"
+                android:button="@null" />
+
+            <ImageView
+                android:id="@+id/play_right_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bt_next" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0.5dp"
+            android:background="@color/color_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/play_image_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_8dp"
+                android:src="@mipmap/bt_next_nor" />
+
+            <View
+                android:layout_width="@dimen/space_0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray" />
+
+            <TextView
+                android:id="@+id/play_text_creator_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_8dp"
+                android:text="10:22" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/play_seek_bar"
+                android:layout_width="@dimen/space_0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_4dp"
+                android:layout_weight="1"
+                android:progress="20" />
+
+            <TextView
+                android:id="@+id/play_text_stop_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_8dp"
+                android:text="20:22" />
+
+            <View
+                android:layout_width="@dimen/space_0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_gray" />
+
+            <ImageView
+                android:id="@+id/play_image_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_8dp"
+                android:src="@mipmap/bt_next_press" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
